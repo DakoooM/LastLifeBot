@@ -1,0 +1,177 @@
+{
+    "serverName": "LastLife",
+    "websiteURL": "https://lastliferp.fr",
+    "iconURL": "https://cdn.discordapp.com/attachments/1167156843991277568/1168501317082296391/logo.png?ex=6551fea7&is=653f89a7&hm=4dae64b6c4599e30d4389f89a18b8baae216bbb3732e0df31e42671e18fc6ada&",
+    "fermerLeTicketApres": 5,
+    "actualisationJoueursStatusEnMinute": 5,
+    "utilisateurMaximumEnBDA": 99,
+    "maximumStreamersShowList": 6,
+    "Status": {
+        "active": true,
+        "ip": "45.138.48.185",
+        "port": "30120"
+    },
+    "bannerURL": {
+        "ticket": null
+    },
+    "Channels": {
+        "arrivants_logs": "1162098122860793926",
+        "salon_bienvenue": "1162098122860793926",
+        "ticket_closed_logs": "1118107116327157861",
+        "booster_salon": "881841575783702580",
+        "creation_salon_bda": "1154836790293831831",
+        "creation_salon_bda_categorie": "1118077047047192587"
+    },
+    "Roles": {
+        "equipe_staff": "916756948077125652",
+        "nouveau_arrivants": "882407550262345739",
+        "streameur": "1154722521095090206"
+    },
+    "ticket_embed_fields": [
+        {
+            "name": "Informations",
+            "value": "Toutes formes de spam, insultes ou autres sera Sanctionnable.",
+            "inline": false
+        }
+    ],
+    "linksEmbedUtils": [
+        {
+            "name": "Notre Wiki",
+            "value": "Retrouvez notre wiki et de multiples informations utiles en cliquant ici",
+            "link": "https://lastlife.gitbook.io/lastlife-wiki",
+            "emoji": "📚"
+        },
+        {
+            "name": "Notre règlement",
+            "value": "N'hésitez pas à jeter un petit coup d'oeil à notre règlement disponible ici",
+            "link": "https://shorturl.at/dkwD4",
+            "emoji": "📜"
+        },
+        {
+            "name": "La page TopServer",
+            "value": "Accéder à la page top Server de LastLife RP en cliquant ici",
+            "link": "https://top-serveurs.net/gta/lastlife-rp-officiel",
+            "emoji": "🌐"
+        },
+        {
+            "name": "Faire un don",
+            "value": "Vous pouvez soutenir le serveur avec un donc via PayPal à LastLife RP en cliquant ici",
+            "link": "https://www.paypal.com/paypalme/lastlifeofficiel",
+            "emoji": "💰"
+        }
+    ],
+    "TouchesEnJeuEmbed": {
+        "Cacher/Montrer le chat": "L",
+        "Parler à la Radio": "MAJ",
+        "Interagir avec les objets": "ALT + clic gauche sur l'item",
+        "Fouiller les poches/le sac d'une personne": "ALT",
+        "Porter/lâcher une personne": "O (lettre)",
+        "Plaquer une personne sur le sol": "SHIFT + G",
+        "Ramper sur le sol": "à bind dans les paramètres",
+        "Tomber par terre sur le sol/ragdoll/s'évanouir": "à bind dans les paramètres",
+        "Lever les mains en l'air": "X",
+        "Pointer quelqu'un/quelque chose du doigt": "B",
+        "Accélérer en vélo/BMX": "VER. MAJ",
+        "Verrouiller/fermer/déverrouiller/ouvrir un véhicule": "J"
+    },
+    "tickets": [
+        {
+            "label": "Recrutement Staff",
+            "emoji": "👨‍✈️",
+            "description": "Faire un candidature pour entrer dans l'équipe de modération",
+            "customId": "recruit_btn",
+            "style": "Secondary",
+            "inline": true,
+            "categoryId": "1118068305933115422",
+            "embed": {
+                "title": "Recrutement Staff",
+                "description": "Vous avez crée un ticket pour être recruter parmis le staff de Code & Chill, veuillez lire les conditions ci-dessous",
+                "thumbnail": false,
+                "fields": [
+                    {
+                        "name": "Condition N°1",
+                        "value": "Etre actif sur le discord au moins 4h par semaine.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°2",
+                        "value": "Avoir minimum 16 ans et avoir une voix plus ou moins agréable.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°3",
+                        "value": "Nous donnez les projet sur lesquels vous avez fait de la modération.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°4",
+                        "value": "Être respectueux envers les membres, aucun débordement ne sera tolérer.",
+                        "inline": true
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Demande de rôles",
+            "emoji": "🐍",
+            "description": "Demandez certains grade accessible seulement en fesant un ticket.",
+            "customId": "request_roles_btn",
+            "style": "Secondary",
+            "inline": false,
+            "categoryId": "1118068305933115422",
+            "embed": {
+                "title": "Demande de grade",
+                "description": "Faire une demande de rôle pour <@&800598319890038784>",
+                "thumbnail": false,
+                "fields": [
+                    {
+                        "name": "Condition N°1",
+                        "value": "Envoyez nous votre profil github",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°2",
+                        "value": "Décrivez-vous en mettant en valeur vos compétences.",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°3",
+                        "value": "Nous donnez les projet sur lesquels vous avez travaillez (publique ou autres).",
+                        "inline": true
+                    },
+                    {
+                        "name": "Condition N°4",
+                        "value": "N'hésitez pas a rajouter des éléments si vous pensez que cela est important, vous aurez plus de chance d'être mis en avant.",
+                        "inline": false
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Signaler un membre",
+            "emoji": "⛔",
+            "description": "si un membre ne respecte pas le règlement ou autres abus, signalez le.",
+            "customId": "report_user",
+            "style": "Secondary",
+            "inline": false,
+            "categoryId": "1118068305933115422",
+            "embed": {
+                "title": "Signaler un membre",
+                "description": "Vous avez crée un ticket pour signaler un membre",
+                "thumbnail": false,
+                "fields": [
+                    {
+                        "name": "Décrivez le problème",
+                        "value": "Dites nous ce que le membre a mal fait avec des preuves a l'appui (image/vidéo).",
+                        "inline": true
+                    },
+                    {
+                        "name": "Important",
+                        "value": "Tout ce qui touche a vos message privés ou autre ne nous regarde pas.",
+                        "inline": false
+                    }
+                ]
+            }
+        }
+    ]
+}
